@@ -1,0 +1,49 @@
+.friend-task {
+  width: 91%;
+  margin: 0 auto;
+  border-radius: 12px;
+  height: 67px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333333; /* Replace with your bgGray color */
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-img {
+  width: 36px;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.friend-name {
+  font-size: 17px;
+  color: white;
+  font-family: "Monomaniac One", sans-serif; /* Replace with your preferred font */
+}
+
+.money {
+  font-size: 12px;
+  color: #A9A9A9; /* Replace with your mainGray color */
+  font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-text, .clock-text {
+  font-size: 10px;
+  color: #A9A9A9;
+  font-family: 'IBM Plex Mono', sans-serif;
+}
